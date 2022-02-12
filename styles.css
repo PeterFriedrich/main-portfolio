@@ -1,10 +1,18 @@
+* {
+    font: verdana;
+}
+
+h1 {
+   font: verdana;
+}
+
 body {
+
     margin: 50;
-    background-color: #AFEEEE;
+    background-color: lightcyan;
     text-align: center;
 }
 
-<style>
 .aligncenter {
     text-align: center:
 }
@@ -13,7 +21,19 @@ body {
     width: 700px;
     height: auto;
 }
-</style>
+
+.bold {
+    font-weight: bold;
+}
+
+.graytext {
+    color: gray;
+}
+
+#person-name {
+    font-family: cursive;
+}
+
 
 
 
