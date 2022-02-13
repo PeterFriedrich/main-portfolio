@@ -8,7 +8,7 @@ h1 {
 
 body {
 
-    margin: 10px 200px;
+    margin: 50;
     background-color: lightcyan;
     text-align: center;
 }
@@ -27,18 +27,17 @@ body {
 }
 
 .graytext {
-    color: darkgray;
+    color: gray;
 }
 
 #person-name {
+    font-family: cursive;
 }
 
 a[href*='machine'] {
     color: lightgreen;
 }
 
-a:hover {
-    color: lime;
-}
+p:hover {
 
 
