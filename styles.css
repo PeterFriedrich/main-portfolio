@@ -1,20 +1,37 @@
 * {
-    font: verdana;
+    font-family: Helvetica;
+}
+
+body {
+    margin: 10px 200px;
+    background-color: lightcyan;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    text-align: left;
 }
 
 h1 {
    font: verdana;
 }
 
-body {
-
-    margin: 10px 200px;
-    background-color: lightcyan;
-    text-align: center;
+h2 {
+    color: darkblue;
 }
 
-.aligncenter {
-    text-align: center:
+h3,
+  .bio {
+    color:indigo;
+    background-image: url("./images/moon-fancy.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.center-image {
+    text-align: center;
 }
 
 .webapp {
@@ -31,6 +48,9 @@ body {
 }
 
 #person-name {
+    background-color:indigo;
+    color: white;
+    opacity: 0.9;
 }
 
 a[href*='machine'] {
@@ -41,4 +61,11 @@ a:hover {
     color: lime;
 }
 
+h1.bold {
+    font-family: Tahoma;
+}
 
+.project-list li {
+    font-family: monospace;
+    font-size: large;
+}
