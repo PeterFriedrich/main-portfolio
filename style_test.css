@@ -1,0 +1,13 @@
+
+.body-background {
+    background-color: indigo;
+    background-image: url("images/moon-fancy.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: Helvetica;
+}
+
+.white {
+    color:whitesmoke;
+}
+

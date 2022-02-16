@@ -24,7 +24,7 @@ h2 {
 h3,
   .bio {
     color:indigo;
-    background-image: url("./images/moon-fancy.jpg");
+    /* background-image: url("./images/moon-fancy.jpg"); */
     background-size: cover;
     background-position: center;
 }
