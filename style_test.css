@@ -1,9 +1,8 @@
-
 .body-background {
-    background-color: indigo;
-    background-image: url("images/moon-fancy.jpg");
-    background-size: cover;
+    background-image: url("images/mountain-lake.png");
     background-position: center;
+    width: cover;
+    size: auto;
     font-family: Helvetica;
 }
 
