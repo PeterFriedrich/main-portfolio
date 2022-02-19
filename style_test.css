@@ -1,12 +1,44 @@
-.body-background {
-    background-image: url("images/mountain-lake.png");
-    background-position: center;
-    width: cover;
-    size: auto;
-    font-family: Helvetica;
+body {
+    background-color: silver;
 }
 
-.white {
-    color:whitesmoke;
+.navigation {
+    text-align: center;
 }
+
+#banner {
+    background-image: url("./images/moon-fancy-nbl.jpg");
+    background-size: cover;
+    background-position: bottom center;
+    height: 300px;
+    width: 100%;
+}
+
+#banner .content h1 {
+    position: relative;
+    top: 50px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: lightcyan;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.bio {
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+
+}
+
+.project-nav {
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+}
+
+
 
