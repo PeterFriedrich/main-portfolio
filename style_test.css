@@ -1,14 +1,16 @@
 body {
+    background-color: silver;
 }
 
 .navigation {
+    text-align: center;
 }
 
 #banner {
     background-image: url("./images/moon-fancy-nbl.jpg");
     background-size: cover;
     background-position: bottom center;
-    height: 400px;
+    height: 300px;
     width: 100%;
 }
 
@@ -19,10 +21,23 @@ body {
 }
 
 h1 {
-    color: white;
+    color: lightcyan;
     font-size: 42px;
     font-weight: 600;
     text-align: center;
+}
+
+.bio {
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+
+}
+
+.project-nav {
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
 }
 
 
