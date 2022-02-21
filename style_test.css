@@ -1,9 +1,17 @@
 body {
     background-color: silver;
+    font-family: 'Raleway', sans-serif;
 }
 
-.navigation {
+.navigation ul {
+    margin: 0;
+    padding: 0;
     text-align: center;
+}
+
+.navigation li {
+    font-weight: 100;
+    letter-spacing: 2px;
 }
 
 #banner {
@@ -34,10 +42,15 @@ h1 {
 
 }
 
-.project-nav {
-    position: relative;
-    width: 600px;
-    margin: 0 auto;
+.project-nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.project-nav li {
+    font-weight: 100;
+    letter-spacing: 2px;
 }
 
 
