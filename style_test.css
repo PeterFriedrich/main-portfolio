@@ -39,6 +39,19 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    text-align: left;
+    width: 600px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
 .bio {
     position: relative;
     width: 600px;
@@ -59,6 +72,4 @@ h1 {
     letter-spacing: 2px;
     padding: 2px;
 }
-
-
 
