@@ -47,14 +47,27 @@ h2 {
 
 p {
     text-align: left;
-    width: 600px;
+    width: 700px;
     margin: 0 auto;
     padding: 5px;
+    line-height: 1.5em;
+}
+
+a {
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+    padding: 5px;
+    display: block;
+}
+
+a:hover {
+    color: darkcyan;
 }
 
 .bio {
     position: relative;
-    width: 600px;
+    width: 700px;
     margin: 0 auto;
     padding: 5px;
 
