@@ -21,6 +21,7 @@ body {
     background-position: bottom center;
     height: 30%;
     width: 100%;
+    overflow: hidden;
 }
 
 #banner .content h1 {
