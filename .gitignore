@@ -2,3 +2,4 @@
 *tasks.json*
 .vscode/tasks.json
 /vscode
+*.json
