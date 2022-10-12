@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 5px;
     text-align: center;
+    list-style-type: none;
 }
 
 .navigation li {
