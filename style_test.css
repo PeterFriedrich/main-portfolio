@@ -3,6 +3,8 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+
+
 .navigation ul {
     margin: 0;
     padding: 5px;
@@ -10,10 +12,11 @@ body {
     list-style-type: none;
 }
 
+
 .navigation li {
     font-weight: 100;
     letter-spacing: 2px;
-    padding: 2px;
+    padding: 10px;
 }
 
 #banner {
