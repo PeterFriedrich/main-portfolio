@@ -12,7 +12,7 @@
     "preview": "astro preview",
     "check": "astro check",
     "test": "node --test 'tests/*.test.mjs'",
-    "guards": "python3 scripts/check_doc_citations.py && python3 scripts/check_decisions_log.py",
+    "guards": "PY=$(command -v python3.12 || command -v python3) && $PY scripts/check_doc_citations.py && $PY scripts/check_decisions_log.py",
     "handoff-gap": "python3 scripts/handoff_gap.py",
     "new:post": "node tools/new-post.mjs blog",
     "new:project": "node tools/new-post.mjs project"
